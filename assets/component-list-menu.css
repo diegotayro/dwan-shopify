@@ -32,4 +32,5 @@
 .mi_nombre {
   background: linear-gradient(to right, #FF0018, #FFA52C, #FFFF41, #008018, #0000F9, #86007D);
   color: #d1ccbc !important;
+  text-decoration: underline overline;
 }
