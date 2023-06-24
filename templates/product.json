@@ -56,6 +56,15 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "848405dd-8b00-452c-acac-a16052d7a391": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Contact_page_row",
+            "icon": "apple",
+            "content": "",
+            "page": "contact"
+          }
         }
       },
       "block_order": [
@@ -67,7 +76,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "848405dd-8b00-452c-acac-a16052d7a391"
       ],
       "settings": {
         "enable_sticky_info": true,
