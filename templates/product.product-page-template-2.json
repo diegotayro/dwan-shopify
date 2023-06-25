@@ -122,10 +122,55 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "cca13162-9ec6-4d92-802d-b5387fc1400f": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19558383157522__cca13162-9ec6-4d92-802d-b5387fc1400f-1687661161b9d4cecf-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mold cheese dimensions",
+            "heading_size": "h0"
+          }
+        },
+        "template--19558383157522__cca13162-9ec6-4d92-802d-b5387fc1400f-1687661161b9d4cecf-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The dimensions of the mold cheese are the same for all of our cheese products.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--19558383157522__cca13162-9ec6-4d92-802d-b5387fc1400f-1687661161b9d4cecf-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19558383157522__cca13162-9ec6-4d92-802d-b5387fc1400f-1687661161b9d4cecf-0",
+        "template--19558383157522__cca13162-9ec6-4d92-802d-b5387fc1400f-1687661161b9d4cecf-1",
+        "template--19558383157522__cca13162-9ec6-4d92-802d-b5387fc1400f-1687661161b9d4cecf-2"
+      ],
+      "settings": {
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "cca13162-9ec6-4d92-802d-b5387fc1400f"
   ]
 }
