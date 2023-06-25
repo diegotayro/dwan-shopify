@@ -129,7 +129,7 @@
         "template--19558383157522__cca13162-9ec6-4d92-802d-b5387fc1400f-1687661161b9d4cecf-0": {
           "type": "heading",
           "settings": {
-            "heading": "Mold cheese dimensions",
+            "heading": "{{ product.title }}",
             "heading_size": "h0"
           }
         },
@@ -154,6 +154,7 @@
         "template--19558383157522__cca13162-9ec6-4d92-802d-b5387fc1400f-1687661161b9d4cecf-2"
       ],
       "settings": {
+        "image": "{{ product.metafields.custom.dimensions.value }}",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
