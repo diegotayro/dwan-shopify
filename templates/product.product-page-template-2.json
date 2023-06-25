@@ -200,7 +200,7 @@
         "block-button-of-probando-image-with-text-2"
       ],
       "settings": {
-        "image": "",
+        "image": "{{ product.metafields.custom.dimensions.value }}",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
