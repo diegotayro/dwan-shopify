@@ -65,6 +65,15 @@
             "content": "",
             "page": "contact"
           }
+        },
+        "68279440-4e81-4be4-92a2-b4eb61eddb83": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping conditions",
+            "icon": "leaf",
+            "content": "<p>{{ product.metafields.custom.shipping_condition | metafield_tag }}<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -77,7 +86,8 @@
         "buy_buttons",
         "description",
         "share",
-        "848405dd-8b00-452c-acac-a16052d7a391"
+        "848405dd-8b00-452c-acac-a16052d7a391",
+        "68279440-4e81-4be4-92a2-b4eb61eddb83"
       ],
       "settings": {
         "enable_sticky_info": true,
