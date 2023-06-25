@@ -125,11 +125,12 @@
     },
     "cca13162-9ec6-4d92-802d-b5387fc1400f": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "template--19558383157522__cca13162-9ec6-4d92-802d-b5387fc1400f-1687661161b9d4cecf-0": {
           "type": "heading",
           "settings": {
-            "heading": "{{ product.title }}",
+            "heading": "{{ product.metafields.test_data.binding_mount.value }}",
             "heading_size": "h0"
           }
         },
@@ -167,11 +168,57 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "probando-image-with-text-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "block-heading-of-probando-image-with-text-2": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h0"
+          }
+        },
+        "block-text-of-probando-image-with-text-2": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "block-button-of-probando-image-with-text-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "block-heading-of-probando-image-with-text-2",
+        "block-text-of-probando-image-with-text-2",
+        "block-button-of-probando-image-with-text-2"
+      ],
+      "settings": {
+        "image": "",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "cca13162-9ec6-4d92-802d-b5387fc1400f"
+    "cca13162-9ec6-4d92-802d-b5387fc1400f",
+    "probando-image-with-text-2"
   ]
 }

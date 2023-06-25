@@ -409,3 +409,8 @@
     row-gap: var(--grid-desktop-vertical-spacing);
   }
 }
+
+.section-of-product-page-template-2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
