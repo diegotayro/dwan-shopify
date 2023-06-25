@@ -3,7 +3,7 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "5520923e-b6ed-4ff0-86d7-94aedfb63b58": {
+        "stock_product_block": {
           "type": "inventory",
           "settings": {
             "text_style": "subtitle",
@@ -59,7 +59,7 @@
         }
       },
       "block_order": [
-        "5520923e-b6ed-4ff0-86d7-94aedfb63b58",
+        "stock_product_block",
         "vendor",
         "title",
         "price",
